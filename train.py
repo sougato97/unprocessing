@@ -26,9 +26,9 @@ from __future__ import print_function
 from absl import flags
 import tensorflow as tf
 
-from unprocessing import dataset
-from unprocessing import estimator
-from unprocessing import network
+import dataset
+import estimator
+import network
 
 FLAGS = flags.FLAGS
 

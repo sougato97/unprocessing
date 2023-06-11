@@ -25,7 +25,7 @@ from __future__ import print_function
 
 import tensorflow as tf
 
-from unprocessing import unprocess
+import unprocess
 
 
 def read_jpg(filename):
